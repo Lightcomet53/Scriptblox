@@ -10,10 +10,10 @@ const Home: React.FC = () => {
   const navigate = useNavigate();
 
   const style = {
-    // backgroundImage: "url(/assets/images/backgrounds/9.jpg)",
-    // backgroundSize: "cover",
-    // backgroundRepeat: "no-repeat",
-    // backgroundPosition: "center",
+    backgroundImage: "url(/assets/images/backgrounds/7.jpg)",
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
     height: MIN_HEIGHT,
     paddingTop: "70vh",
   };
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
     <div className={`text-center h-full`}>
       <div style={style}>
         <div className="px-[10%]">
-          <Typography variant="h5" textAlign="left" gutterBottom>Search the best Lua scripts available in the community uploaded by users!</Typography>
+          <Typography variant="h5" textAlign="left" gutterBottom className="text-white">Search the best Lua scripts available in the community uploaded by users!</Typography>
           <SearchBar />
         </div>
       </div>
