@@ -1,0 +1,1 @@
+export const MIN_HEIGHT = "calc(100vh - 64px)"
