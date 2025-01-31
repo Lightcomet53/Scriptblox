@@ -4,7 +4,7 @@ import cors from 'cors';
 import * as dotenv from 'dotenv';
 import bodyParser from 'body-parser';
 import path from 'path';
-import todoRoutes from './routes/todoRoute';
+import todoRoutes from './routes/api/todoRoute';
 
 dotenv.config();
 
@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-    origin: 'https://scriptblox-jantdlsj5-roman-fedorives-projects.vercel.app/', // Replace with your frontend's URL
+    origin: 'https://scriptblox-gules.vercel.app', // Replace with your frontend's URL
     credentials: true
   }));
 app.use(express.json());

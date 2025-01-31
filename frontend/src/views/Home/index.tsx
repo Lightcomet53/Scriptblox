@@ -10,7 +10,7 @@ const Home: React.FC = () => {
 
   return (
     <div className='text-center pt-40'>
-      <Typography variant='h1'>Helloooooooooooooooo, World!</Typography>
+      <Typography variant='h1'>ooooo, World!</Typography>
       <Typography variant='h3' sx={{marginBottom: "50px"}}>This is a sample modulized Todo Application.</Typography>
       <Button variant="contained" color="primary" onClick={moveToList}>Todo List</Button>
     </div>
