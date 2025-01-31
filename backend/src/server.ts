@@ -10,6 +10,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://passion_777:passion_777@jack.fv2ru.mongodb.net/?retryWrites=true&w=majority&appName=Jack"
 
 // Middleware
 app.use(cors({
@@ -21,7 +22,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGO_URI! as string)
+mongoose.connect(MONGO_URI! as string)
     .then(() => console.log("MongoDB connected"))
     .catch(err => console.error(err));
 
