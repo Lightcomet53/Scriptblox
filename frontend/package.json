@@ -55,7 +55,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://scriptblox-ly559i8fq-roman-fedorives-projects.vercel.app:5000",
   "devDependencies": {
     "tailwindcss": "^3.4.14"
   }
