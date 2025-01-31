@@ -30,12 +30,12 @@ app.use('/tasks', todoRoutes);
 
 
 // Serve static files from the React app's build directory
-app.use(express.static(path.join(__dirname, '../../frontend/build')));
+// app.use(express.static(path.join(__dirname, '../../frontend/build')));
 
-// Catchall handler for any request that doesn't match above
-app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../../frontend/build', 'index.html'));
-});
+// // Catchall handler for any request that doesn't match above
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(__dirname, '../../frontend/build', 'index.html'));
+// });
 
 app.listen(PORT, () => {
     console.log(`Server is running on ${PORT}`);
