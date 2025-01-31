@@ -55,7 +55,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://scriptblox-kqgeekqda-roman-fedorives-projects.vercel.app/todos:5000",
   "devDependencies": {
     "tailwindcss": "^3.4.14"
   }
